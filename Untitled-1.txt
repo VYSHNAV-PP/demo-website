@@ -1,0 +1,729 @@
+<div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <h1 class="text-primary text-uppercase mb-2 pt-2">Bakery Products</h1>
+        <h3 class="display-6 mb-4">Explore The Categories Of Our Bakery Products</h3>
+    </div>
+
+
+    .col-sm-6, .col-6 {
+        width: 50%; /* 2 columns */
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 145px;
+        max-height: 145px;
+        padding: 9px;
+    }
+
+    .container2{
+        max-width: 38rem;
+        
+         background: linear-gradient(to bottom, #fdf9f3 50%, #f0d7a7 100%);
+     
+    }
+
+    .product1 {
+        max-width: 130px;
+        max-height: 130px;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .p2 {
+        padding: 5px;
+    }
+    .p3 {
+        padding: 3px;
+    }
+
+    .category {
+
+        max-width: 140px;
+        max-height: 90px;
+        
+    }
+
+    .want {
+        
+        max-width: 100px;
+        max-height: 100px;
+        aspect-ratio: 1 / 1;
+    }
+    .image1{
+        margin-top: 2px;
+        height: 600px;
+    }
+    .testimonial-section {
+        background-color: #fdf9f3; /* Light cream background */
+        padding: 50px 0;
+    }
+    
+    .testimonial-text {
+        font-size: 1.1rem;
+        color: #333333;
+        line-height: 1.8;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .testimonial-author {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    
+    /* Center align the navigation arrows vertically */
+/* Center align the navigation arrows under the text */
+    .carousel-controls {
+        display: flex;
+        justify-content: center; /* Center the arrows horizontally */
+        margin-top: 20px; /* Add spacing above the arrows */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: static; /* Remove absolute positioning */
+        display: inline-flex;
+        margin: 0 10px; /* Add spacing between arrows */
+        background-color: #a5823d; /* Golden-brown background */
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-size: 60%; /* Adjust arrow size */
+        filter: invert(100%); /* Make arrow icons white */
+    }
+
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+        background-color: #8c6f2d; /* Darken color on hover */
+    }
+    .service-container {
+        background: linear-gradient(to bottom, #f0d7a7 50%, #fdf9f3 100%);
+        transition: background 1s ease-in-out;
+    }
+
+    /* Testimonial container stays as it is */
+    .testimonial-container {
+        background: linear-gradient(to top, #fdf9f3 90%, #fdf9f3 100%);
+        
+    }
+
+    .footer-text{
+        font-size: small;
+    }
+
+
+
+
+
+    .col-sm-6, .col-6 {
+        width: 50%; /* 2 columns on small screens */
+    }
+
+    /* Center the last image */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 100px;
+        max-height: 100px;
+        padding: 10px;
+    }
+
+
+    .container2 {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .product1 {
+        max-width: 80px;
+        max-height: 80px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .p2 {
+        padding: .2rem;
+    }
+
+    .category {
+        max-width: 90px;
+        max-height: 90px;
+        aspect-ratio: 1 / 1;
+        font-size: 13px;
+    }
+
+    .want {
+        max-width: 70px;
+        max-height: 70px;
+        aspect-ratio: 1 / 1;
+    }
+  
+    .image1{
+        margin-top: 25px;
+    }
+
+
+
+
+
+
+
+
+    .col-sm-6, .col-6 {
+        width: 50%; /* 2 columns */
+    }
+
+    /* Center the last image */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 130px;
+        max-height: 130px;
+        padding: 10px;
+    }
+
+    .container2 {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .product1 {
+        max-width: 100px;
+        max-height: 100px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .p2 {
+        padding: .4rem;
+    }
+
+    .category {
+        max-width: 110px;
+        max-height: 110px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .want {
+        max-width: 80px;
+        max-height: 80px;
+        aspect-ratio: 1 / 1;
+    }
+    .image1{
+        margin-top: 23px;
+    }
+    .footer-text{
+        font-size: medium;
+    }
+    /* Testimonial Image */
+    .testimonial-carousel .owl-item .testimonial-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Testimonial Item Styling */
+    .testimonial-carousel .owl-item .testimonial-item {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        height: 200px; /* Fixed height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden; /* Hide any content that exceeds */
+    }
+
+    /* Adjusting the text size and making it scrollable */
+    .testimonial-carousel .owl-item .testimonial-item p {
+        flex-grow: 1; /* Allow text block to expand */
+        overflow-y: auto; /* Allow scrolling for longer text */
+        max-height: 180px; /* Limit the height of the text area */
+        padding-right: 10px; /* Padding to ensure scrollbar is visible */
+        font-size: 12px; /* Smaller text size */
+        line-height: 1.5; /* Improved line spacing */
+    }
+    
+    /* Apply gradient to the service container to create the fade effect */
+    .service-container {
+        background: linear-gradient(to bottom, #f0d7a7 50%, #36221B 100%);
+        transition: background 1s ease-in-out;
+    }
+
+    /* Testimonial container stays as it is */
+    .testimonial-container {
+        background: linear-gradient(to top, #36221B 90%, #36221B 100%);
+        
+    }
+
+
+
+
+
+
+
+    .col-sm-6, .col-6 {
+        width: 50%; /* 2 columns */
+    }
+
+    /* Center the last image */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 130px;
+        max-height: 130px;
+        padding: 10px;
+    }
+
+    .container2 {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .product1 {
+        max-width: 130px;
+        max-height: 130px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .p2 {
+        padding: .2rem;
+    }
+
+    .category {
+        max-width: 110px;
+        max-height: 110px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .want {
+        max-width: 80px;
+        max-height: 80px;
+        aspect-ratio: 1 / 1;
+    }
+    .image1{
+        margin-top: 23px;
+    }
+    
+    /* Apply gradient to the service container to create the fade effect */
+.service-container {
+    background: linear-gradient(to bottom, #f0d7a7 50%, #36221B 100%);
+    transition: background 1s ease-in-out;
+}
+
+/* Testimonial container stays as it is */
+.testimonial-container {
+    background: linear-gradient(to top, #36221B 90%, #36221B 100%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.col-sm-6, .col-6 {
+        width: 50%; /* 2 columns */
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 150px;
+        max-height: 150px;
+        padding: 12px;
+    }
+
+    .container2 {
+        max-width: 40rem;
+        margin: auto;
+       
+    }
+
+    .product1 {
+        max-width: 150px;
+        max-height: 150px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .p2 {
+        padding: .2rem;
+    }
+
+    .category {
+        max-width: 150px;
+        max-height: 110px;
+       
+    }
+
+    .want {
+        max-width: 100px;
+        max-height: 100px;
+        aspect-ratio: 1 / 1;
+    }
+    .image1{
+        margin-top: 2px;
+    }
+    /* Apply gradient to the service container to create the fade effect */
+.service-container {
+    background: linear-gradient(to bottom, #f0d7a7 50%, #36221B 100%);
+    transition: background 1s ease-in-out;
+}
+
+/* Testimonial container stays as it is */
+.testimonial-container {
+    background: linear-gradient(to top, #36221B 90%, #36221B 100%);
+    
+}
+
+
+
+
+
+
+
+.col-sm-6, .col-6 {
+        width: 50%; /* 2 columns */
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 145px;
+        max-height: 145px;
+        padding: 12px;
+    }
+
+    .container2 {
+        max-width: 40rem;
+        margin: auto;
+       
+    }
+
+    .product1 {
+        max-width: 130px;
+        max-height: 130px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .p2 {
+        padding: .2rem;
+    }
+
+    .category {
+        max-width: 140px;
+        max-height: 130px;
+        
+    }
+
+    .want {
+        max-width: 100px;
+        max-height: 100px;
+        aspect-ratio: 1 / 1;
+    }
+    .image1{
+        margin-top: 2px;
+    }
+    /* Apply gradient to the service container to create the fade effect */
+.service-container {
+    background: linear-gradient(to bottom, #f0d7a7 50%, #36221B 100%);
+    transition: background 1s ease-in-out;
+}
+
+/* Testimonial container stays as it is */
+.testimonial-container {
+    background: linear-gradient(to top, #36221B 90%, #36221B 100%);
+    
+}
+
+
+
+
+
+
+
+
+.col-sm-6, .col-6 {
+        width: 50%; /* 2 columns */
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 145px;
+        max-height: 145px;
+        padding: 12px;
+    }
+
+    .container2 {
+        max-width: 50rem;
+        margin: auto;
+       
+    }
+
+    .product1 {
+        max-width: 130px;
+        max-height: 130px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .p2 {
+        padding: .2rem;
+    }
+
+    .category {
+        max-width: 140px;
+        max-height: 130px;
+        
+    }
+
+    .want {
+        max-width: 100px;
+        max-height: 100px;
+        aspect-ratio: 1 / 1;
+    }
+    .image1{
+        margin-top: 2px;
+    }
+    .review-section {
+        width: 80%;
+        margin: 2rem auto;
+        text-align: left;
+    }
+    
+    .review-title {
+        font-size: 2rem;
+        color: #8d6c5b; /* Slightly darker brown for heading */
+        margin-bottom: 1rem;
+    }
+    
+    .review-card {
+        background-color: #f4ede6; /* Lighter beige for cards */
+        border-radius: 10px;
+        padding: 1rem 1.5rem;
+        margin: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .user-icon {
+        font-size: 1.2rem;
+        color: red; /* Star color */
+        margin-bottom: 0.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+    }/* Apply gradient to the service container to create the fade effect */
+    .service-container {
+        background: linear-gradient(to bottom, #f0d7a7 50%, #36221B 100%);
+        transition: background 1s ease-in-out;
+    }
+    
+    /* Testimonial container stays as it is */
+    .testimonial-container {
+        background: linear-gradient(to top, #36221B 90%, #36221B 100%);
+        
+    }
+
+
+
+
+
+
+
+
+    .col-sm-6, .col-6 {
+        width: 50%; /* 2 columns */
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row .col-6:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product {
+        max-width: 145px;
+        max-height: 145px;
+        padding: 9px;
+    }
+
+    .container2{
+        max-width: 38rem;
+        
+         background: linear-gradient(to bottom, #fdf9f3 50%, #f0d7a7 100%);
+     
+    }
+
+    .product1 {
+        max-width: 130px;
+        max-height: 130px;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .p2 {
+        padding: 5px;
+    }
+    .p3 {
+        padding: 3px;
+    }
+
+    .category {
+
+        max-width: 140px;
+        max-height: 90px;
+        
+    }
+
+    .want {
+        
+        max-width: 100px;
+        max-height: 100px;
+        aspect-ratio: 1 / 1;
+    }
+    .image1{
+        margin-top: 2px;
+        height: 600px;
+    }
+    .testimonial-section {
+        background-color: #fdf9f3; /* Light cream background */
+        padding: 50px 0;
+    }
+    
+    .testimonial-text {
+        font-size: 1.1rem;
+        color: #333333;
+        line-height: 1.8;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .testimonial-author {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    
+    /* Center align the navigation arrows vertically */
+/* Center align the navigation arrows under the text */
+    .carousel-controls {
+        display: flex;
+        justify-content: center; /* Center the arrows horizontally */
+        margin-top: 20px; /* Add spacing above the arrows */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: static; /* Remove absolute positioning */
+        display: inline-flex;
+        margin: 0 10px; /* Add spacing between arrows */
+        background-color: #a5823d; /* Golden-brown background */
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-size: 60%; /* Adjust arrow size */
+        filter: invert(100%); /* Make arrow icons white */
+    }
+
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+        background-color: #8c6f2d; /* Darken color on hover */
+    }
+    .service-container {
+        background: linear-gradient(to bottom, #f0d7a7 50%, #fdf9f3 100%);
+        transition: background 1s ease-in-out;
+    }
+
+    /* Testimonial container stays as it is */
+    .testimonial-container {
+        background: linear-gradient(to top, #fdf9f3 90%, #fdf9f3 100%);
+        
+    }
+        
+    
