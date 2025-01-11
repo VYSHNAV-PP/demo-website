@@ -91,7 +91,7 @@
     // Add animation to make items subtly move in an idle state
     $(".slider-carousel").owlCarousel({
         loop: true,
-        margin: 5,
+        margin: 25,
         items: 5,
         autoplay: true,
         smartSpeed: 600,
@@ -208,3 +208,7 @@ window.onload = () => {
   // Initially hide the body (or main content) until everything is loaded
   document.body.style.opacity = 0;
   document.body.style.transition = "opacity 0.5s ease";
+
+  function navigateTo(category) {
+    window.location.href = `products.html#${category}`;
+}
