@@ -23,7 +23,7 @@ const products = [
 
     {id: 19, name: 'Milk Biscuit', category: 'biscuits', image: 'img/biscuits/milk.jpg'},
     {id: 20, name: 'Ragi Biscuit', category: 'biscuits', image: 'img/biscuits/ragi biscuits.jpeg'},
-    {id: 21, name: 'Salt and Kaara Biscuit', category: 'biscuits', image: 'img/biscuits/Salt and kaara 2.jpeg'},
+    {id: 21, name: 'Salt and Kaara Biscuit', category: 'biscuits', image: 'img/biscuits/salt and kaara 2.jpeg'},
     {id: 22, name: 'Ajwain Biscuit', category: 'biscuits', image: 'img/biscuits/om-rusk.jpeg'},
     {id: 23, name: 'Sweet and Salt Biscuit', category: 'biscuits', image: 'img/biscuits/sweet.jpg'},
     {id: 24, name: 'Coconut Biscuit', category: 'biscuits', image: 'img/biscuits/coconut biscuit.jpeg'},
