@@ -600,7 +600,7 @@ h6,
     .image1{
         margin-top: 2px;
         object-fit: contain;
-        max-height: 400px;
+        max-height: 500px;
     }
     .testimonial-section {
         background-color: #fdf9f3; /* Light cream background */
