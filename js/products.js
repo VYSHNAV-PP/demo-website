@@ -44,7 +44,7 @@ const products = [
     
     {id: 36, name: 'Vegetable Puffs', category: 'others', image: 'img/puffs/veg-puff.jpeg'},
     {id: 37, name: 'Egg Puffs', category: 'others', image: 'img/puffs/egg_puffs.jpeg'},
-    {id: 38, name: 'Paneer Puffs', category: 'others', image: 'img/breads and buns/nipat.jpeg'},
+    
     {id: 39, name: 'Gatti Puffs', category: 'others', image: 'img/puffs/gatti_puffs.jpeg'},
     {id: 40, name: 'Fruit Puffs', category: 'others', image: 'img/puffs/fruit puff.jpeg'},
     {id: 41, name: 'Banana Cake', category: 'others', image: 'img/cakes/banana-cake.jpeg'},
