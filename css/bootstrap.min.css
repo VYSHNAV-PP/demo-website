@@ -675,6 +675,26 @@ progress {
     max-width: 2000px;
   }
 }
+@media (min-width: 1720px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 100%;
+  }
+
+  .container1,
+  .container1-sm,
+  .container1-md,
+  .container1-lg,
+  .container1-xl,
+  .container1-xxl,
+  .category-container {
+    max-width: 3000px;
+  }
+}
 
 .row {
   --bs-gutter-x: 1.5rem;

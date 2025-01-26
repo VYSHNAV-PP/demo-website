@@ -127,10 +127,13 @@
                 items: 7
             },
             1710: {
-                items: 7
+                items: 10
             },
             1300: {
                 items: 9
+            },
+            1900:{
+                items:11
             }
         },
         onInitialized: function() {

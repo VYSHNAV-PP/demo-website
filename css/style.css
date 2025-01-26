@@ -548,6 +548,7 @@ h6,
         justify-content: space-between;
     }
     .text_main{
+
         font-size: 13px;
     }
     .row .col-6:last-child {
@@ -1809,7 +1810,7 @@ h6,
         justify-content: space-between;
     }
     .text_main{
-        font-size: 18px;
+        font-size: 25px;
     }
     .row .col-6:last-child {
         margin-left: auto;
@@ -1844,8 +1845,8 @@ h6,
     }
 
     .category {
-        max-width: 130px;
-        max-height: 80px;
+        max-width: 150px;
+        max-height: 100px;
         
     }
 
@@ -1943,7 +1944,7 @@ h6,
     
     
 }
-@media (min-width: 2000px) and (max-width:2220){
+@media (min-width: 2000px){
     .col-sm-6, .col-6 {
         width: 50%; /* 2 columns */
     }
@@ -1954,7 +1955,7 @@ h6,
         justify-content: space-between;
     }
     .text_main{
-        font-size: 18px;
+        font-size: 48px;
     }
     .row .col-6:last-child {
         margin-left: auto;
@@ -1989,8 +1990,8 @@ h6,
     }
 
     .category {
-        max-width: 130px;
-        max-height: 80px;
+        max-width: 170px;
+        max-height: 120px;
         
     }
 
@@ -2238,7 +2239,7 @@ h6,
 
 .nav-pills .tab {
     background-color: #f1f1f1;
-    padding: 10px 20px;
+    padding: 15px 15px;
     margin-right: 5px;
     cursor: pointer;
     border-radius: 5px;

@@ -50,7 +50,7 @@
         <div class="row">
             <div class="d-none d-lg-flex">
                 <div class="ps-3">
-                    <p class="text-primary mb-0">1234567890</p>
+                    <p class="text-primary mb-0">+91 98457 17173</p>
                     
                 </div>
             </div>
@@ -61,27 +61,29 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <!-- Use ml-auto to align the nav items to the right side -->
-        <div class="navbar-nav ml-auto" style="margin-left: auto;">
+        <div class=" navbar-nav ml-auto" style="margin-left: auto;">
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="category.html" class="nav-item nav-link">Products</a>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+            <a href="products.html" class="nav-item nav-link">Products</a>
+            <a href="products.html#contact" class="nav-item nav-link">Contact</a>
         </div>
     </div>
 </nav>
 <!-- Navbar End -->
-<div class="container-product bg-light my-2 py-6 pt-4 pt-0">
-    <!-- Category Pills -->
-    <ul class="nav-pills" id="category-tabs">
+<div class="container-product bg-light py-6 pt-4 pt-0">
+ 
+    <ul class=" nav-pills" id="category-tabs">
         <li class="tab" id="tab-all" onclick="showProducts('all')">All</li>
-        <li class="tab" id="tab-cakes" onclick="showProducts('cakes')">Cakes</li>
-        <li class="tab" id="tab-bread" onclick="showProducts('bread')">Bread</li>
-        <li class="tab" id="tab-biscuits" onclick="showProducts('biscuits')">Biscuits</li>
+        <li class="tab" id="tab-cakes" onclick="showProducts('cakes')">Cake</li>
+        <li class="tab" id="tab-bread" onclick="showProducts('bread')">Bread and Rusk</li>
+        <li class="tab" id="tab-biscuits" onclick="showProducts('biscuits')">Biscuit</li>
+        <li class="tab" id="tab-biscuits" onclick="showProducts('bun')">Bun</li>
+        <li class="tab" id="tab-biscuits" onclick="showProducts('others')">Puffs and Others</li>
     </ul>
 
-    <!-- Product images container -->
+    
     <div id="product-images">
-        <!-- Product images will be dynamically added here -->
+       
     </div>
 </div>
 
@@ -92,29 +94,43 @@
 <div class="footer-container container-fluid  text-light footer  mb-0 py-2 wow fadeIn" data-wow-delay="0.1s" style="background-color: #f0d7a7;">
         
             
-    <div class="col-lg-12 col-md-12 text-center ">
+    <div style="flex: 1;" class="col-lg-12 col-md-12 text-center ">
         <h2 class="footer1" style="color: #885b00;">NS. Variar Bakery</h2>
         <h4 class="footer2" style="color: #885b00;"> Get in touch</h4>
-        <h6 class="mb-2 footer3" style="color: #000000;"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</h6>
-        <h6 class="mb-2 footer3" style="color: #000000;"><i class="fa fa-envelope me-3"></i>info@example.com</h6>
+        <h6 class="mb-2 footer3" style="color: #000000;"><i class="fa fa-phone-alt me-3"></i>+91 98457 17173</h6>
+        <h6 class="mb-2 footer3" style="color: #000000;"><i class="fa fa-envelope me-3"></i>nsvariarbakery@gmail.com</h6>
         <div class="d-flex pt-2 justify-content-center align-items-center" >
           
             
-            <a class="btn btn-square btn-outline-dark rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-square btn-outline-dark rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-            <a class="btn btn-square btn-outline-dark rounded-circle me-0" href=""><i class="bi bi-instagram"></i></a>
+            <a class="btn btn-square btn-outline-dark rounded-circle me-1" href="https://www.facebook.com/nsvariarbakery"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-outline-dark rounded-circle me-1" href="https://www.youtube.com/@nsvariarbakery"><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square btn-outline-dark rounded-circle me-0" href="https://www.instagram.com/nsvariarbakery/"><i class="bi bi-instagram"></i></a>
         </div>
     </div>
 
 </div>
+<style>
+
+/* For devices up to 520px */
+@media (max-width: 520px) {
+    
+    .nav-pills {
+        flex-wrap: wrap;
+        text-align: center; 
+    }
+    .tab {
+        flex-basis: calc(50% - 10px); 
+    }
+}
+</style>
 <!-- Footer End -->
 
 
 <!-- Copyright Start -->
 <div class="container-fluid  text-light mt-3 fadeIn" style="background: #bfa165;" data-wow-delay="0.1s">
-<div class="container">
+<div id="contact" class="container">
 <div class="row">
-    <div class="copyright1 text-center  mb-md-0 ">
+    <div class=" copyright1 text-center  mb-md-0 ">
         &copy; <a href="#"></a>NS. Variar Bakery, All Right Reserved.
     </div>
 
